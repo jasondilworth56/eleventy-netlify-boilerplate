@@ -26,8 +26,8 @@ collections:
                 widget: "relation",
                 collection: "pages",
                 searchFields: ["title"],
-                valueField: "permalink",
-                displayFields: ["title"],
+                valueField: "{{slug}}",
+                displayFields: ["{{ title }}"],
                 multiple: true,
             }
     # Our pages e.g. About
