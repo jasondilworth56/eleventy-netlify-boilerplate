@@ -10,7 +10,15 @@ section: post
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
     </small>
   </p>
-
+    
+  {% if related %}
+    <p>
+    {% for r in related %}
+    <a href="{{ r.url }}">{{ r }}</a>
+    {% endfor %}
+    </p>
+  {% endif %}
+   
   {{ layoutContent | safe }}
 
   {% if tags %}
