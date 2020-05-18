@@ -6,8 +6,7 @@ tags:
   - environment
   - politics
 related:
-  - //blog/index.html/,Blog
-  - //about//,About us
+  - /contact/index.html,Get in touch
 ---
 
 Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
