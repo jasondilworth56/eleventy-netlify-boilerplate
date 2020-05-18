@@ -11,9 +11,12 @@ section: post
     </small>
   </p>
   {% if related %}
+   
     <p>Related: 
+    
     {% for r in related %}
-    <a href="{{ r[0] }}">{{ r[1] }}</a>
+    {% set relatedPage = r | split(",") %}
+    <a href="{{ relatedPage[0] }}">{{ relatedPage[1] }}</a>
     {% endfor %}
     </p>
   {% endif %}
