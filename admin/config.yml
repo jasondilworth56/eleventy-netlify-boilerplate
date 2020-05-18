@@ -26,7 +26,7 @@ collections:
                 widget: "relation",
                 collection: "pages",
                 searchFields: ["title"],
-                valueField: "{{slug}}",
+                valueField: ["{{slug}}", "{{title}}"],
                 displayFields: ["{{ title }}"],
                 multiple: true,
             }
