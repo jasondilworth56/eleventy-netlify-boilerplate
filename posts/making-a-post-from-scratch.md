@@ -2,12 +2,11 @@
 title: Making a post from scratch
 date: 2020-05-18T15:09:20.096Z
 summary: Just trying out this whole 11ty and Netlify CMS thing. It's pretty cool
-    to be fair...
+  to be fair...
 tags:
-    - post
+  - post
 related:
-    - ["/about/", "About"]
-    - ["/contact/index.html", "Contact"]
+  - "[blog, Blog]"
 ---
 
 ## I do not generally like new things
