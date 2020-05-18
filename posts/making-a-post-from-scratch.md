@@ -6,7 +6,8 @@ summary: Just trying out this whole 11ty and Netlify CMS thing. It's pretty cool
 tags:
   - post
 related:
-  - About us
+  - /about/
+  - /contact/index.html
 ---
 ## I do not generally like new things
 
