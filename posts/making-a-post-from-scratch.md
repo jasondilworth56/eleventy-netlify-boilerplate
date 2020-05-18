@@ -5,6 +5,8 @@ summary: Just trying out this whole 11ty and Netlify CMS thing. It's pretty cool
   to be fair...
 tags:
   - post
+related:
+  - About us
 ---
 ## I do not generally like new things
 
