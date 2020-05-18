@@ -14,7 +14,7 @@ section: post
   {% if related %}
     <p>
     {% for r in related %}
-    <a href="{{ r.permalink | url }}">{{ r }}</a>
+    R: {{ r }} Permalink: {{ r.permalink }} URL: {{ r.url }} Page: {{ r.page }}
     {% endfor %}
     </p>
   {% endif %}
