@@ -26,7 +26,8 @@ collections:
                 widget: "relation",
                 collection: "pages",
                 searchFields: ["title"],
-                valueField: "{{ slug }}",
+                valueField: "slug",
+                displayField: "title",
                 multiple: true,
             }
     # Our pages e.g. About
