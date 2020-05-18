@@ -45,6 +45,12 @@ module.exports = function(eleventyConfig) {
     return minified.code;
   });
 
+  // Split string
+  eleventyConfig.addFilter("split", function(str, delimiter) {
+    console.log(`Str: ${str}, Delimiter: ${delimiter}`);
+    return str.split(delimiter);
+  })
+
   // Minify HTML output
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if (outputPath.indexOf(".html") > -1) {
