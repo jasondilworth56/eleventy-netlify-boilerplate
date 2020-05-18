@@ -10,11 +10,16 @@ section: post
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
     </small>
   </p>
-    
+    Pages:
+    {% for page in collections.page %}
+    {{ page.data.body }}
+    {% endfor %}
   {% if related %}
     <p>
+    
     {% for r in related %}
-    R: {{ r }} Permalink: {{ r.permalink }} URL: {{ r.url }} Page: {{ r.page }}
+    {% set pageURL %}/{{ r | slug }}/{% endset %}
+    <a href="{{ pageURL }}">{{ r }}</a>
     {% endfor %}
     </p>
   {% endif %}
